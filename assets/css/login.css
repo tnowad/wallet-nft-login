@@ -1,0 +1,29 @@
+.wpwn-login {
+    margin: 1em 0;
+    padding: 1em;
+    border: 1px solid #dadcdf;
+    border-radius: 6px;
+    background-color: #f6f7f7;
+}
+
+.wpwn-login__button {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35em;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.wpwn-login__status {
+    margin-top: 0.5em;
+    min-height: 1.25em;
+    font-size: 13px;
+}
+
+.wpwn-login__status--error {
+    color: #b71c1c;
+}
+
+.wpwn-login__status--success {
+    color: #1b5e20;
+}
